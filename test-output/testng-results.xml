@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-27T19:35:51 IST" name="Default suite" finished-at="2023-01-27T19:35:51 IST" duration-ms="130">
+    <groups>
+    </groups>
+    <test started-at="2023-01-27T19:35:51 IST" name="Default test" finished-at="2023-01-27T19:35:51 IST" duration-ms="130">
+      <class name="idiendhya.Annotationsss">
+        <test-method signature="createcontact()[pri:1, instance:idiendhya.Annotationsss@20ccf40b]" started-at="2023-01-27T19:35:51 IST" name="createcontact" finished-at="2023-01-27T19:35:51 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontact -->
+        <test-method signature="modifycontact()[pri:2, instance:idiendhya.Annotationsss@20ccf40b]" started-at="2023-01-27T19:35:51 IST" name="modifycontact" finished-at="2023-01-27T19:35:51 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifycontact -->
+        <test-method signature="deletecontact()[pri:3, instance:idiendhya.Annotationsss@20ccf40b]" started-at="2023-01-27T19:35:51 IST" name="deletecontact" finished-at="2023-01-27T19:35:51 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecontact -->
+      </class> <!-- idiendhya.Annotationsss -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
