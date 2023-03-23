@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -11,9 +12,9 @@ public class Openavvu {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		WebDriverManager.chromedriver().setup();
+		WebDriverManager.edgedriver().setup();
 		
-		WebDriver driver=new ChromeDriver();
+		WebDriver driver=new EdgeDriver();
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(2000));
 		driver.get("https://www.cricbuzz.com/"
