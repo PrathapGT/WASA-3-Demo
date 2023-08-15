@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
@@ -16,9 +17,9 @@ public class Teams {
 
 	public static void main(String[] args) throws Throwable {
 
-		WebDriverManager.chromedriver().setup();
+		WebDriverManager.firefoxdriver().setup();
  
-		  WebDriver driver=new ChromeDriver();
+		  WebDriver driver=new FirefoxDriver();
 		  
 		  driver.get("https://www.cricbuzz.com/");
 
@@ -26,6 +27,8 @@ public class Teams {
 		 Thread.sleep(2000);
 Actions act=new Actions	(driver); 
 		 act.moveToElement(ele).perform();
+		 
+		 driver.findElement(By.xpath("//a[@href='/cricket-team/india/2']")).click();
 		
 		
 			
